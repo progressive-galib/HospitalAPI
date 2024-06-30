@@ -21,6 +21,12 @@ This project was completed as an interview assignment for Excel Technologies Ltd
 
 2. **Set Up the Database**:
    Ensure PostgreSQL is running, then create the necessary user and database:
+   (how I did it)
+      ```bash
+   sudo apt update && sudo apt install postgresql postgresql-contrib #if you dont have postgres installed.
+   sudo -i -u postgres
+   psql
+   ```
    ```sql
    CREATE USER hospital WITH PASSWORD '12345678';
    CREATE DATABASE hospitaldb;
