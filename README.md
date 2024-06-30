@@ -27,6 +27,8 @@ This project was completed as an interview assignment for Excel Technologies Ltd
    sudo -i -u postgres
    psql
    ```
+   then in psql shell
+    
    ```sql
    CREATE USER hospital WITH PASSWORD '12345678';
    CREATE DATABASE hospitaldb;
