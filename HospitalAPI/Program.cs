@@ -21,7 +21,7 @@ builder.Services.AddScoped<DiseaseService>();
 builder.Services.AddScoped<NCDService>();
 builder.Services.AddScoped<AllergyService>();
 
-builder.Services.AddAntDesign()
+builder.Services.AddAntDesign();
 
 // Add services to the container.
 
